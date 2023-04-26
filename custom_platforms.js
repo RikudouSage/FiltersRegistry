@@ -1,7 +1,5 @@
 // Changes in the platforms configuration:
 //
-// Replacing :has with :-abp-has in all filters.
-// TODO: remove this when ExtCSS v2.0 is released to all AG products.
 
 module.exports = {
     "WINDOWS": {
@@ -9,12 +7,7 @@ module.exports = {
         "path": "windows",
         "configuration": {
             "ignoreRuleHints": false,
-            "replacements": [
-                {
-                    "from": ":has\\(",
-                    "to": ":-abp-has("
-                }
-            ]
+            "replacements": null,
         },
         "defines": {
             "adguard": true,
@@ -26,12 +19,7 @@ module.exports = {
         "path": "mac",
         "configuration": {
             "ignoreRuleHints": false,
-            "replacements": [
-                {
-                    "from": ":has\\(",
-                    "to": ":-abp-has("
-                }
-            ]
+            "replacements": null,
         },
         "defines": {
             "adguard": true,
@@ -43,12 +31,7 @@ module.exports = {
         "path": "mac_v2",
         "configuration": {
             "ignoreRuleHints": false,
-            "replacements": [
-                {
-                    "from": ":has\\(",
-                    "to": ":-abp-has("
-                }
-            ]
+            "replacements": null,
         },
         "defines": {
             "adguard": true,
@@ -61,12 +44,7 @@ module.exports = {
         "path": "android",
         "configuration": {
             "ignoreRuleHints": false,
-            "replacements": [
-                {
-                    "from": ":has\\(",
-                    "to": ":-abp-has("
-                }
-            ]
+            "replacements": null,
         },
         "defines": {
             "adguard": true,
@@ -106,12 +84,7 @@ module.exports = {
                 "\\$csp",
                 "\\$network"
             ],
-            "replacements": [
-                {
-                    "from": ":has\\(",
-                    "to": ":-abp-has("
-                }
-            ],
+            "replacements": null,,
             "ignoreRuleHints": false
         },
         "defines": {
@@ -135,12 +108,7 @@ module.exports = {
                 "\\$extension",
                 ",extension"
             ],
-            "replacements": [
-                {
-                    "from": ":has\\(",
-                    "to": ":-abp-has("
-                }
-            ],
+            "replacements": null,,
             "ignoreRuleHints": false
         },
         "defines": {
@@ -163,12 +131,7 @@ module.exports = {
                 "\\$(.*,)?replace=",
                 "important,replace="
             ],
-            "replacements": [
-                {
-                    "from": ":has\\(",
-                    "to": ":-abp-has("
-                }
-            ],
+            "replacements": null,,
             "ignoreRuleHints": false
         },
         "defines": {
@@ -208,12 +171,7 @@ module.exports = {
                 ",empty",
                 "\\$webrtc"
             ],
-            "replacements": [
-                {
-                    "from": ":has\\(",
-                    "to": ":-abp-has("
-                }
-            ],
+            "replacements": null,,
             "ignoreRuleHints": false
         },
         "defines": {
@@ -244,12 +202,7 @@ module.exports = {
                 ",empty=",
                 "#%#//scriptlet"
             ],
-            "replacements": [
-                {
-                    "from": ":has\\(",
-                    "to": ":-abp-has("
-                }
-            ],
+            "replacements": null,,
             "ignoreRuleHints": false
         },
         "defines": {
@@ -272,12 +225,7 @@ module.exports = {
                 "\\$extension",
                 ",extension"
             ],
-            "replacements": [
-                {
-                    "from": ":has\\(",
-                    "to": ":-abp-has("
-                }
-            ],
+            "replacements": null,,
             "ignoreRuleHints": false
         },
         "defines": {
