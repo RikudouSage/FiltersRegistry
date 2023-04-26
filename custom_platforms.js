@@ -84,7 +84,7 @@ module.exports = {
                 "\\$csp",
                 "\\$network"
             ],
-            "replacements": null,,
+            "replacements": null,
             "ignoreRuleHints": false
         },
         "defines": {
@@ -108,7 +108,7 @@ module.exports = {
                 "\\$extension",
                 ",extension"
             ],
-            "replacements": null,,
+            "replacements": null,
             "ignoreRuleHints": false
         },
         "defines": {
@@ -131,7 +131,7 @@ module.exports = {
                 "\\$(.*,)?replace=",
                 "important,replace="
             ],
-            "replacements": null,,
+            "replacements": null,
             "ignoreRuleHints": false
         },
         "defines": {
@@ -171,7 +171,7 @@ module.exports = {
                 ",empty",
                 "\\$webrtc"
             ],
-            "replacements": null,,
+            "replacements": null,
             "ignoreRuleHints": false
         },
         "defines": {
@@ -202,7 +202,7 @@ module.exports = {
                 ",empty=",
                 "#%#//scriptlet"
             ],
-            "replacements": null,,
+            "replacements": null,
             "ignoreRuleHints": false
         },
         "defines": {
@@ -225,7 +225,7 @@ module.exports = {
                 "\\$extension",
                 ",extension"
             ],
-            "replacements": null,,
+            "replacements": null,
             "ignoreRuleHints": false
         },
         "defines": {
