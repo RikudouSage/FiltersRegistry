@@ -1,5 +1,5 @@
 !
-@include "https://easylist.to/easylist/easyprivacy.txt" /exclude="../../exclusions.txt"
+@include "https://easylist.to/easylist/easyprivacy.txt" /exclude="../../exclusions.txt" /notOptimized
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103955
 !#if (adguard_ext_safari || adguard_app_ios)
