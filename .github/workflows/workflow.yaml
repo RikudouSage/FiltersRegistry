@@ -1,7 +1,10 @@
 name: Build Filters Registry
 
 on:
-  push
+  push:
+  pull_request:
+    paths-ignore:
+      - 'optimization_config.json'
 
 jobs:
   build:
