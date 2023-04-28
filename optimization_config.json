@@ -60,7 +60,7 @@
   {
     "filterId": 118,
     "percent": 80,
-    "strict": true,
+    "strict": false,
     "comment": "EasyPrivacy"
   },
   {
