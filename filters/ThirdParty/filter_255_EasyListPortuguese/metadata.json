@@ -1,0 +1,18 @@
+{
+  "filterId": 255,
+  "name": "EasyList Portuguese",
+  "description": "Additional filter list for websites in Spanish, Portuguese.",
+  "timeAdded": 1683711898008,
+  "homepage": "https://github.com/easylist/easylistportuguese",
+  "expires": "4 days",
+  "displayNumber": 2,
+  "groupId": 7,
+  "subscriptionUrl": "https://easylist-downloads.adblockplus.org/easylistportuguese.txt",
+  "tags": [
+    "purpose:ads",
+    "reference:101",
+    "lang:es",
+    "lang:pt"
+  ],
+  "trustLevel": "low"
+}
