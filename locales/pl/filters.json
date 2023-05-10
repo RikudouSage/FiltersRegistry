@@ -374,5 +374,9 @@
 	{
 		"filter.253.name": "IndianList",
 		"filter.253.description": "Dodatkowa lista filtrów dla stron internetowych w języku hindi, tamilskim i innych językach drawidyjskich i indyjskich."
+	},
+	{
+		"filter.254.name": "Macedońskie filtry adBlock",
+		"filter.254.description": "Blokuje reklamy i moduły śledzące na różnych macedońskich stronach internetowych."
 	}
 ]
