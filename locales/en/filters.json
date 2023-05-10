@@ -378,5 +378,9 @@
 	{
 		"filter.254.name": "Macedonian adBlock Filters",
 		"filter.254.description": "Blocks ads and trackers on various Macedonian websites."
+	},
+	{
+		"filter.255.name": "EasyList Portuguese",
+		"filter.255.description": "Additional filter list for websites in Spanish, Portuguese."
 	}
 ]
