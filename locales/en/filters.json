@@ -180,6 +180,10 @@
 		"filter.123.description": "Hides and blocks social content, social widgets, social scripts and social icons. Already included in Fanboy's Annoyances list."
 	},
 	{
+		"filter.124.name": "EasyList Portuguese",
+		"filter.124.description": "Additional filter list for websites in Spanish and Portuguese."
+	},
+	{
 		"filter.201.name": "Web Annoyances Ultralist",
 		"filter.201.description": "Blocks annoying web elements and reclaims lost screen real estate."
 	},
@@ -378,9 +382,5 @@
 	{
 		"filter.254.name": "Macedonian adBlock Filters",
 		"filter.254.description": "Blocks ads and trackers on various Macedonian websites."
-	},
-	{
-		"filter.255.name": "EasyList Portuguese",
-		"filter.255.description": "Additional filter list for websites in Spanish, Portuguese."
 	}
 ]
