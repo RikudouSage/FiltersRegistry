@@ -180,6 +180,10 @@
 		"filter.123.description": "Piilottaa ja estää sosiaalisen sisällön, widgetit, skriptit ja kuvakkeet. Sisältyy jo Fanboy's Annoyances -listaan."
 	},
 	{
+		"filter.124.name": "EasyList Portuguese",
+		"filter.124.description": "Lisäsuodatinlista espanjan- ja portugalinkielisille verkkosivustoille."
+	},
+	{
 		"filter.201.name": "Web Annoyances Ultralist",
 		"filter.201.description": "Estää ärsyttäviä verkkoelementtejä ja vapauttaa menetettyä näyttötilaa."
 	},

@@ -180,6 +180,10 @@
 		"filter.123.description": "Sosyal içeriği, sosyal araçları, sosyal betiklerini, sosyal simgeleri gizler ve engeller. Fanboy's Annoyances listesine zaten dahildir."
 	},
 	{
+		"filter.124.name": "EasyList Portuguese",
+		"filter.124.description": "İspanyolca ve Portekizce siteler için ek filtre listesi."
+	},
+	{
 		"filter.201.name": "Web Annoyances Ultralist",
 		"filter.201.description": "Rahatsız edici internet öğelerini engeller ve kaybolan ekran alanını geri alır."
 	},

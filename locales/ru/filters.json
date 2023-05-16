@@ -180,6 +180,10 @@
 		"filter.123.description": "Скрывает и блокирует социальные виджеты, скрипты и иконки. Уже включён в Fanboy's Annoyances list."
 	},
 	{
+		"filter.124.name": "EasyList Portuguese",
+		"filter.124.description": "Дополнительный фильтр для сайтов на испанском и португальском языках."
+	},
+	{
 		"filter.201.name": "Web Annoyances Ultralist",
 		"filter.201.description": "Блокирует раздражающие элементы веб-страниц и восстанавливает потерянное пространство на экране."
 	},

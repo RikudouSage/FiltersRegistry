@@ -180,6 +180,10 @@
 		"filter.123.description": "隱藏並封鎖社群內容、社群小工具、社群腳本和社群圖示。已被包含在 Fanboy's Annoyances 清單中。"
 	},
 	{
+		"filter.124.name": "EasyList Portuguese",
+		"filter.124.description": "用於西班牙文和葡萄牙文網站的附加過濾清單。"
+	},
+	{
 		"filter.201.name": "Web Annoyances Ultralist",
 		"filter.201.description": "封鎖惱人的網路元件，並收回失去的螢幕所有權。"
 	},

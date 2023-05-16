@@ -180,6 +180,10 @@
 		"filter.123.description": "Skriva in zavira družbene vsebine, gradnike, skripte in ikone. Že vključeno na seznamu Fanboyevih nadležnosti."
 	},
 	{
+		"filter.124.name": "Poljski EasyList",
+		"filter.124.description": "Dodaten znam filtrov za spletne strani v španščini in portugalščini."
+	},
+	{
 		"filter.201.name": "Ultra seznam spletnih nadležnosti",
 		"filter.201.description": "Zavira nadležne spletne elemente in povrne izgubljeno resnično stanje zaslona."
 	},

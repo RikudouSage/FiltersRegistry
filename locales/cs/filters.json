@@ -180,6 +180,10 @@
 		"filter.123.description": "Skrývá a blokuje sociální obsah, sociální widgety, sociální skripty a sociální ikony. Je již zahrnutý v Fanboy's Annoyances list."
 	},
 	{
+		"filter.124.name": "EasyList Portuguese",
+		"filter.124.description": "Doplňkový seznam filtrů pro webové stránky ve španělštině a portugalštině."
+	},
+	{
 		"filter.201.name": "Web Annoyances Ultralist",
 		"filter.201.description": "Blokuje nepříjemné prvky webových stránek a znovu získává zbytečný prostor na obrazovce."
 	},

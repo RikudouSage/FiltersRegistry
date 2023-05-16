@@ -148,6 +148,10 @@
 		"filter.123.description": "Skrýva a blokuje sociálny obsah, sociálne widgety, sociálne skripty a ikony. Už je zahrnutý v zozname Fanboy's Annoyances."
 	},
 	{
+		"filter.124.name": "EasyList v portugalčine",
+		"filter.124.description": "Doplnkový filter pre webové stránky v španielčine a portugalčine."
+	},
+	{
 		"filter.201.name": "Web Annoyances Ultralist",
 		"filter.201.description": "Blokuje obťažujúce webové prvky a získava späť vzhľad stratenej obrazovky."
 	},

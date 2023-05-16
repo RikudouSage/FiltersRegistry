@@ -180,6 +180,10 @@
 		"filter.123.description": "Nasconde e blocca i contenuti social, come: widget, script e icone. Già incluso nell'elenco Fanboy Anti-Fastidio."
 	},
 	{
+		"filter.124.name": "EasyList Portuguese",
+		"filter.124.description": "Elenco di filtri per siti web in lingua spagnola e portoghese."
+	},
+	{
 		"filter.201.name": "Web Annoyances Ultralist",
 		"filter.201.description": "Blocca gli elementi web irritanti e recupera lo spazio perso sullo schermo."
 	},

@@ -180,6 +180,10 @@
 		"filter.123.description": "Oculta e bloqueia conteúdo social, widgets sociais, scripts sociais e ícones sociais. Já incluído na Fanboy's Annoyances list."
 	},
 	{
+		"filter.124.name": "EasyList Portuguese",
+		"filter.124.description": "Lista de filtros adicionais para sites em Espanhol e Português."
+	},
+	{
 		"filter.201.name": "Web Annoyances Ultralist",
 		"filter.201.description": "Bloqueia elementos irritantes da web e recupera o espaço perdido no ecrã."
 	},

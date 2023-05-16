@@ -180,6 +180,10 @@
 		"filter.123.description": "Oculta y bloquea contenido, widgets, scripts e iconos redes sociales. Ya está incluido en Fanboy's Annoyances list."
 	},
 	{
+		"filter.124.name": "EasyList Portugués",
+		"filter.124.description": "Lista de filtros adicionales para sitios en español y portugués."
+	},
+	{
 		"filter.201.name": "Web Annoyances Ultralist",
 		"filter.201.description": "Bloquea elementos molestos y recupera el espacio perdido de la pantalla."
 	},

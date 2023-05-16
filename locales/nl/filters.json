@@ -180,6 +180,10 @@
 		"filter.123.description": "Verbergt en blokkeert sociale inhoud, sociale widgets, scripts en iconen. Inbegrepen in Fanboy's Annoyances List."
 	},
 	{
+		"filter.124.name": "EasyList Portugees",
+		"filter.124.description": "Extra filterlijst voor websites in het Spaans en Portugees."
+	},
+	{
 		"filter.201.name": "Web Ergernissen Ultralist",
 		"filter.201.description": "Blokkeert ergerlijke web elementen en herstelt verloren ruimte op het scherm."
 	},

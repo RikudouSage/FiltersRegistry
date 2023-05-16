@@ -180,6 +180,10 @@
 		"filter.123.description": "Cache et bloque le contenu social, les widgets sociaux, les scripts sociaux et les icônes sociales. Déjà inclus dans Fanboy's Annoyances list."
 	},
 	{
+		"filter.124.name": "EasyList portugais",
+		"filter.124.description": "Liste de filtres additionnelle pour les sites web en espagnol et en portugais."
+	},
+	{
 		"filter.201.name": "Web Annoyances Ultralist",
 		"filter.201.description": "Bloque les éléments Web gênants et récupère les espaces d'écran perdus."
 	},

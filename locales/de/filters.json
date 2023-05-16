@@ -180,6 +180,10 @@
 		"filter.123.description": "Blendet soziale Inhalte, soziale Widgets, soziale Skripte und soziale Symbole aus und sperrt diese. Bereits in der Liste „Fanboy's Annoyances“ (Belästigungen) enthalten."
 	},
 	{
+		"filter.124.name": "EasyList Portuguese",
+		"filter.124.description": "Zusätzliche Filterliste für spanische und portugiesische Websites."
+	},
+	{
 		"filter.201.name": "Web Annoyances Ultralist",
 		"filter.201.description": "Sperrt störende Web-Elemente und gibt frei gewordene Bildschirmbereich frei."
 	},

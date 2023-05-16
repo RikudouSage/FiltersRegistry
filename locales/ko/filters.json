@@ -180,6 +180,10 @@
 		"filter.123.description": "소셜 콘텐츠, 소셜 위젯, 소셜 스크립트 및 소셜 아이콘을 숨기고 차단합니다. 이미 Fanboy's Annoyances 목록에 포함되어 있습니다."
 	},
 	{
+		"filter.124.name": "EasyList Portuguese",
+		"filter.124.description": "스페인어 및 포르투갈어 웹사이트를 위한 추가 필터 목록입니다."
+	},
+	{
 		"filter.201.name": "Web Annoyances Ultralist",
 		"filter.201.description": "화면 공간을 차지하는 방해 요소를 차단합니다."
 	},

@@ -180,6 +180,10 @@
 		"filter.123.description": "隐藏和阻塞社交内容、社交小部件、社交脚本和社交图标。已包含在 Fanboy's Annoyances 列表中。"
 	},
 	{
+		"filter.124.name": "EasyList Portuguese",
+		"filter.124.description": "用于西班牙语和葡萄牙语网站的附加过滤器列表"
+	},
+	{
 		"filter.201.name": "Web Annoyances Ultralist",
 		"filter.201.description": "阻止恼人的web元素，并夺回丢失的屏幕空间。"
 	},
