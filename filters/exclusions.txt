@@ -42,7 +42,7 @@ $popup,~third-party
 /^(~.*)?##\.afs_ads$/
 !
 !### ADgk Mobile China list ###
-/\$\$div\[class="-ad-"\]/
+/^\$\$div\[class="-ad-"\]$/
 ! End: ADgk Mobile China list
 !###################
 !
