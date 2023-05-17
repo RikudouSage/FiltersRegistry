@@ -41,6 +41,11 @@ $popup,~third-party
 /^(~.*)?##\.adsbox$/
 /^(~.*)?##\.afs_ads$/
 !
+!### ADgk Mobile China list ###
+/\$\$div\[class="-ad-"\]/
+! End: ADgk Mobile China list
+!###################
+!
 !### Easylist ###
 !
 ! Moved to Tracking Protection filter
