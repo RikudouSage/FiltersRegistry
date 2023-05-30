@@ -59,6 +59,7 @@
   {
     "filterId": 118,
     "percent": 45,
+    "minPercent": 20,
     "strict": true,
     "comment": "EasyPrivacy"
   },
