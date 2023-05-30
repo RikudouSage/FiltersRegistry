@@ -48,6 +48,7 @@
   {
     "filterId": 104,
     "percent": 45,
+    "strict": false,
     "comment": "EasyList China"
   },
   {
