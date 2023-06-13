@@ -1,6 +1,6 @@
 {
   "filterId": 15,
-  "name": "AdGuard DNS filter",
+  "name": "(Obsolete) AdGuard DNS filter",
   "description": "Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.",
   "timeAdded": 1404115015843,
   "homepage": "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
@@ -20,7 +20,9 @@
     "reference:118",
     "reference:102",
     "reference:13",
-    "reference:16"
+    "reference:16",
+    "obsolete"
   ],
-  "trustLevel": "full"
+  "trustLevel": "full",
+  "disabled": true
 }
