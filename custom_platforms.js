@@ -51,6 +51,50 @@ module.exports = {
             "adguard_app_android": true
         }
     },
+    "IOS": {
+        "platform": "ios",
+        "path": "ios",
+        "configuration": {
+            "removeRulePatterns": [
+                "\\$extension",
+                ",extension",
+                "\\$removeparam",
+                ",removeparam",
+                "\\$removeheader",
+                ",removeheader",
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
+                "\\$(.*,)?mp4",
+                "\\$(.*,)?replace=",
+                "\\$stealth",
+                ",stealth",
+                "\\$cookie",
+                ",cookie",
+                "important,replace=",
+                "\\$(.*,)?app",
+                "\\$protobuf",
+                "important,protobuf",
+                "\\$redirect=",
+                ",redirect=",
+                "\\$redirect-rule=",
+                ",redirect-rule=",
+                "\\$empty",
+                ",empty",
+                "\\$webrtc",
+                "\\$csp",
+                "\\$network",
+                "\\$domain=\/",
+                ",$domain=\/",
+                "\\$(.*,)?hls=",
+                "\\$(.*,)?jsonprune="
+            ],
+            "replacements": null,
+            "ignoreRuleHints": false
+        },
+        "defines": {
+            "adguard": true,
+            "adguard_app_ios": true
+        }
+    },
     "EXTENSION_CHROMIUM": {
         "platform": "ext_chromium",
         "path": "extension/chromium",
@@ -99,50 +143,6 @@ module.exports = {
         "defines": {
             "adguard": true,
             "adguard_ext_firefox": true
-        }
-    },
-    "IOS": {
-        "platform": "ios",
-        "path": "ios",
-        "configuration": {
-            "removeRulePatterns": [
-                "\\$extension",
-                ",extension",
-                "\\$removeparam",
-                ",removeparam",
-                "\\$removeheader",
-                ",removeheader",
-                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
-                "\\$(.*,)?mp4",
-                "\\$(.*,)?replace=",
-                "\\$stealth",
-                ",stealth",
-                "\\$cookie",
-                ",cookie",
-                "important,replace=",
-                "\\$(.*,)?app",
-                "\\$protobuf",
-                "important,protobuf",
-                "\\$redirect=",
-                ",redirect=",
-                "\\$redirect-rule=",
-                ",redirect-rule=",
-                "\\$empty",
-                ",empty",
-                "\\$webrtc",
-                "\\$csp",
-                "\\$network",
-                "\\$domain=\/",
-                ",$domain=\/",
-                "\\$(.*,)?hls=",
-                "\\$(.*,)?jsonprune="
-            ],
-            "replacements": null,
-            "ignoreRuleHints": false
-        },
-        "defines": {
-            "adguard": true,
-            "adguard_app_ios": true
         }
     },
     "EXTENSION_SAFARI": {
