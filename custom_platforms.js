@@ -203,7 +203,6 @@ module.exports = {
         "configuration": {
             "removeRulePatterns": [
                 "^((?!#%#).)*\\$\\$|\\$\\@\\$",
-                "\\$(.*,)?mp4",
                 "\\$(.*,)?replace=",
                 "important,replace=",
                 "\\$(.*,)?app",
@@ -212,13 +211,6 @@ module.exports = {
                 "important,protobuf",
                 "\\$extension",
                 ",extension",
-                "\\$redirect=",
-                ",redirect=",
-                "\\$redirect-rule=",
-                ",redirect-rule=",
-                "\\$empty=",
-                ",empty=",
-                "#%#//scriptlet",
                 "\\$hls=",
                 ",hls=",
                 "\\$jsonprune=",
