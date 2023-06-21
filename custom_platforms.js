@@ -83,9 +83,11 @@ module.exports = {
                 "\\$csp",
                 "\\$network",
                 "\\$domain=\/",
-                ",$domain=\/",
-                "\\$(.*,)?hls=",
-                "\\$(.*,)?jsonprune="
+                ",domain=\/",
+                "\\$hls=",
+                ",hls=",
+                "\\$jsonprune=",
+                ",jsonprune="
             ],
             "replacements": null,
             "ignoreRuleHints": false
@@ -109,8 +111,11 @@ module.exports = {
                 "important,protobuf",
                 "\\$extension",
                 ",extension",
-                "\\$(.*,)?hls=",
-                "\\$(.*,)?jsonprune="
+                ",domain=\/",
+                "\\$hls=",
+                ",hls=",
+                "\\$jsonprune=",
+                ",jsonprune="
             ],
             "replacements": null,
             "ignoreRuleHints": false
@@ -134,8 +139,11 @@ module.exports = {
                 "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?replace=",
                 "important,replace=",
-                "\\$(.*,)?hls=",
-                "\\$(.*,)?jsonprune="
+                ",domain=\/",
+                "\\$hls=",
+                ",hls=",
+                "\\$jsonprune=",
+                ",jsonprune="
             ],
             "replacements": null,
             "ignoreRuleHints": false
@@ -177,9 +185,12 @@ module.exports = {
                 "\\$csp",
                 "\\$network",
                 "\\$domain=\/",
-                ",$domain=\/",
-                "\\$(.*,)?hls=",
-                "\\$(.*,)?jsonprune="
+                ",domain=\/",
+                ",domain=\/",
+                "\\$hls=",
+                ",hls=",
+                "\\$jsonprune=",
+                ",jsonprune="
             ],
             "replacements": null,
             "ignoreRuleHints": false
@@ -211,8 +222,11 @@ module.exports = {
                 "\\$empty=",
                 ",empty=",
                 "#%#//scriptlet",
-                "\\$(.*,)?hls=",
-                "\\$(.*,)?jsonprune="
+                ",domain=\/",
+                "\\$hls=",
+                ",hls=",
+                "\\$jsonprune=",
+                ",jsonprune="
             ],
             "replacements": null,
             "ignoreRuleHints": false
@@ -236,8 +250,11 @@ module.exports = {
                 "important,protobuf",
                 "\\$extension",
                 ",extension",
-                "\\$(.*,)?hls=",
-                "\\$(.*,)?jsonprune="
+                ",domain=\/",
+                "\\$hls=",
+                ",hls=",
+                "\\$jsonprune=",
+                ",jsonprune="
             ],
             "replacements": null,
             "ignoreRuleHints": false
@@ -299,9 +316,12 @@ module.exports = {
                 "\\$redirect-rule=",
                 ",redirect-rule=",
                 "\\$domain=\/",
-                ",$domain=\/",
-                "\\$(.*,)?hls=",
-                "\\$(.*,)?jsonprune="
+                ",domain=\/",
+                ",domain=\/",
+                "\\$hls=",
+                ",hls=",
+                "\\$jsonprune=",
+                ",jsonprune="
             ],
             "ignoreRuleHints": false
         },
@@ -337,8 +357,11 @@ module.exports = {
                 ",content(,|$)",
                 "$webrtc",
                 "#\\$#@media ",
-                "\\$(.*,)?hls=",
-                "\\$(.*,)?jsonprune="
+                ",domain=\/",
+                "\\$hls=",
+                ",hls=",
+                "\\$jsonprune=",
+                ",jsonprune="
             ],
             "ignoreRuleHints": false,
             "adbHeader": "![Adblock Plus 2.0]"
