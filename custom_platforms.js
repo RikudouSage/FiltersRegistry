@@ -354,7 +354,6 @@ module.exports = {
                 ",content(,|$)",
                 "$webrtc",
                 "#\\$#@media ",
-                ",domain=\/",
                 "\\$hls=",
                 ",hls=",
                 "\\$jsonprune=",
