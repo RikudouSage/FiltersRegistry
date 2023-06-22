@@ -56,13 +56,18 @@ module.exports = {
         "path": "ios",
         "configuration": {
             "removeRulePatterns": [
+                // In Safari, 'if-domain' and 'unless-domain' do not support regexps, only '*'
+                // https://github.com/AdguardTeam/FiltersRegistry/pull/806
+                "\\$domain=\/",
+                ",domain=\/",
+                // Do not exclude scriptlets which contains $$ when excluding '$$' and '$@$' rules
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$extension",
                 ",extension",
                 "\\$removeparam",
                 ",removeparam",
                 "\\$removeheader",
                 ",removeheader",
-                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?mp4",
                 "\\$(.*,)?replace=",
                 "\\$stealth",
@@ -82,8 +87,6 @@ module.exports = {
                 "\\$webrtc",
                 "\\$csp",
                 "\\$network",
-                "\\$domain=\/",
-                ",domain=\/",
                 "\\$hls=",
                 ",hls=",
                 "\\$jsonprune=",
@@ -102,7 +105,8 @@ module.exports = {
         "path": "extension/chromium",
         "configuration": {
             "removeRulePatterns": [
-                "\\$\\$|\\$\\@\\$",
+                // Do not exclude scriptlets which contains $$
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?replace=",
                 "important,replace=",
                 "\\$(.*,)?app",
@@ -131,6 +135,8 @@ module.exports = {
         "path": "extension/firefox",
         "configuration": {
             "removeRulePatterns": [
+                // Do not exclude scriptlets which contains $$
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?app",
                 "\\$network",
                 "\\$protobuf",
@@ -151,13 +157,18 @@ module.exports = {
         "path": "extension/safari",
         "configuration": {
             "removeRulePatterns": [
+                // In Safari, 'if-domain' and 'unless-domain' do not support regexps, only '*'
+                // https://github.com/AdguardTeam/FiltersRegistry/pull/806
+                "\\$domain=\/",
+                ",domain=\/",
+                // Do not exclude scriptlets which contains $$ when excluding '$$' and '$@$' rules
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$extension",
                 ",extension",
                 "\\$removeparam",
                 ",removeparam",
                 "\\$removeheader",
                 ",removeheader",
-                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?mp4",
                 "\\$(.*,)?replace=",
                 "\\$stealth",
@@ -177,8 +188,6 @@ module.exports = {
                 "\\$webrtc",
                 "\\$csp",
                 "\\$network",
-                "\\$domain=\/",
-                ",domain=\/",
                 "\\$hls=",
                 ",hls=",
                 "\\$jsonprune=",
@@ -197,7 +206,8 @@ module.exports = {
         "path": "extension/edge",
         "configuration": {
             "removeRulePatterns": [
-                "\\$\\$|\\$\\@\\$",
+                // Do not exclude scriptlets which contains $$
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?replace=",
                 "important,replace=",
                 "\\$(.*,)?app",
@@ -226,7 +236,8 @@ module.exports = {
         "path": "extension/opera",
         "configuration": {
             "removeRulePatterns": [
-                "\\$\\$|\\$\\@\\$",
+                // Do not exclude scriptlets which contains $$
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?replace=",
                 "important,replace=",
                 "\\$(.*,)?app",
@@ -255,13 +266,18 @@ module.exports = {
         "path": "extension/android-content-blocker",
         "configuration": {
             "removeRulePatterns": [
+                // AdGuard Content Blocker does not support regexps in '$domain', only '*'
+                // https://github.com/AdguardTeam/FiltersRegistry/pull/806
+                "\\$domain=\/",
+                ",domain=\/",
+                // Do not exclude scriptlets which contains $$ when excluding '$$' and '$@$' rules
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$extension",
                 ",extension",
                 "\\$removeparam",
                 ",removeparam",
                 "\\$removeheader",
                 ",removeheader",
-                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "#%#",
                 "#@%#",
                 "#\\$#",
@@ -301,8 +317,6 @@ module.exports = {
                 ",redirect=",
                 "\\$redirect-rule=",
                 ",redirect-rule=",
-                "\\$domain=\/",
-                ",domain=\/",
                 "\\$hls=",
                 ",hls=",
                 "\\$jsonprune=",
@@ -320,6 +334,7 @@ module.exports = {
         "path": "extension/ublock",
         "configuration": {
             "removeRulePatterns": [
+                // Do not exclude scriptlets which contains $$
                 "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?mp4",
                 "\\$(.*,)?replace=",
