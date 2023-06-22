@@ -102,7 +102,7 @@ module.exports = {
         "path": "extension/chromium",
         "configuration": {
             "removeRulePatterns": [
-                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
+                "\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?replace=",
                 "important,replace=",
                 "\\$(.*,)?app",
@@ -114,7 +114,9 @@ module.exports = {
                 "\\$hls=",
                 ",hls=",
                 "\\$jsonprune=",
-                ",jsonprune="
+                ",jsonprune=",
+                "\\$content",
+                ",content"
             ],
             "replacements": null,
             "ignoreRuleHints": false
@@ -134,14 +136,7 @@ module.exports = {
                 "\\$protobuf",
                 "important,protobuf",
                 "\\$extension",
-                ",extension",
-                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
-                "\\$(.*,)?replace=",
-                "important,replace=",
-                "\\$hls=",
-                ",hls=",
-                "\\$jsonprune=",
-                ",jsonprune="
+                ",extension"
             ],
             "replacements": null,
             "ignoreRuleHints": false
@@ -202,8 +197,7 @@ module.exports = {
         "path": "extension/edge",
         "configuration": {
             "removeRulePatterns": [
-                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
-                "\\$(.*,)?mp4",
+                "\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?replace=",
                 "important,replace=",
                 "\\$(.*,)?app",
@@ -212,17 +206,12 @@ module.exports = {
                 "important,protobuf",
                 "\\$extension",
                 ",extension",
-                "\\$redirect=",
-                ",redirect=",
-                "\\$redirect-rule=",
-                ",redirect-rule=",
-                "\\$empty=",
-                ",empty=",
-                "#%#//scriptlet",
                 "\\$hls=",
                 ",hls=",
                 "\\$jsonprune=",
-                ",jsonprune="
+                ",jsonprune=",
+                "\\$content",
+                ",content"
             ],
             "replacements": null,
             "ignoreRuleHints": false
@@ -237,7 +226,7 @@ module.exports = {
         "path": "extension/opera",
         "configuration": {
             "removeRulePatterns": [
-                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
+                "\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?replace=",
                 "important,replace=",
                 "\\$(.*,)?app",
@@ -249,7 +238,9 @@ module.exports = {
                 "\\$hls=",
                 ",hls=",
                 "\\$jsonprune=",
-                ",jsonprune="
+                ",jsonprune=",
+                "\\$content",
+                ",content"
             ],
             "replacements": null,
             "ignoreRuleHints": false
