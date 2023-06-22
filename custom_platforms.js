@@ -51,56 +51,6 @@ module.exports = {
             "adguard_app_android": true
         }
     },
-    "IOS": {
-        "platform": "ios",
-        "path": "ios",
-        "configuration": {
-            "removeRulePatterns": [
-                // In Safari, 'if-domain' and 'unless-domain' do not support regexps, only '*'
-                // https://github.com/AdguardTeam/FiltersRegistry/pull/806
-                "\\$domain=\/",
-                ",domain=\/",
-                // Do not exclude scriptlets which contain '$$' when excluding '$$' and '$@$' rules
-                // https://github.com/AdguardTeam/FiltersRegistry/issues/731
-                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
-                "\\$extension",
-                ",extension",
-                "\\$removeparam",
-                ",removeparam",
-                "\\$removeheader",
-                ",removeheader",
-                "\\$(.*,)?mp4",
-                "\\$(.*,)?replace=",
-                "\\$stealth",
-                ",stealth",
-                "\\$cookie",
-                ",cookie",
-                "important,replace=",
-                "\\$(.*,)?app",
-                "\\$protobuf",
-                "important,protobuf",
-                "\\$redirect=",
-                ",redirect=",
-                "\\$redirect-rule=",
-                ",redirect-rule=",
-                "\\$empty",
-                ",empty",
-                "\\$webrtc",
-                "\\$csp",
-                "\\$network",
-                "\\$hls=",
-                ",hls=",
-                "\\$jsonprune=",
-                ",jsonprune="
-            ],
-            "replacements": null,
-            "ignoreRuleHints": false
-        },
-        "defines": {
-            "adguard": true,
-            "adguard_app_ios": true
-        }
-    },
     "EXTENSION_CHROMIUM": {
         "platform": "ext_chromium",
         "path": "extension/chromium",
@@ -130,6 +80,68 @@ module.exports = {
         "defines": {
             "adguard": true,
             "adguard_ext_chromium": true
+        }
+    },
+    "EXTENSION_EDGE": {
+        "platform": "ext_edge",
+        "path": "extension/edge",
+        "configuration": {
+            "removeRulePatterns": [
+                // Do not exclude scriptlets which contain '$$' when excluding '$$' and '$@$' rules
+                // https://github.com/AdguardTeam/FiltersRegistry/issues/731
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
+                "\\$(.*,)?replace=",
+                "important,replace=",
+                "\\$(.*,)?app",
+                "\\$network",
+                "\\$protobuf",
+                "important,protobuf",
+                "\\$extension",
+                ",extension",
+                "\\$hls=",
+                ",hls=",
+                "\\$jsonprune=",
+                ",jsonprune=",
+                "\\$content",
+                ",content"
+            ],
+            "replacements": null,
+            "ignoreRuleHints": false
+        },
+        "defines": {
+            "adguard": true,
+            "adguard_ext_edge": true
+        }
+    },
+    "EXTENSION_OPERA": {
+        "platform": "ext_opera",
+        "path": "extension/opera",
+        "configuration": {
+            "removeRulePatterns": [
+                // Do not exclude scriptlets which contain '$$' when excluding '$$' and '$@$' rules
+                // https://github.com/AdguardTeam/FiltersRegistry/issues/731
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
+                "\\$(.*,)?replace=",
+                "important,replace=",
+                "\\$(.*,)?app",
+                "\\$network",
+                "\\$protobuf",
+                "important,protobuf",
+                "\\$extension",
+                ",extension",
+                "\\$hls=",
+                ",hls=",
+                "\\$jsonprune=",
+                ",jsonprune=",
+                "\\$content",
+                ",content"
+            ],
+            "replacements": null,
+            "ignoreRuleHints": false
+        },
+        "defines": {
+            "adguard": true,
+            "adguard_ext_opera": true
         }
     },
     "EXTENSION_FIREFOX": {
@@ -205,66 +217,54 @@ module.exports = {
             "adguard_ext_safari": true
         }
     },
-    "EXTENSION_EDGE": {
-        "platform": "ext_edge",
-        "path": "extension/edge",
+    "IOS": {
+        "platform": "ios",
+        "path": "ios",
         "configuration": {
             "removeRulePatterns": [
+                // In Safari, 'if-domain' and 'unless-domain' do not support regexps, only '*'
+                // https://github.com/AdguardTeam/FiltersRegistry/pull/806
+                "\\$domain=\/",
+                ",domain=\/",
                 // Do not exclude scriptlets which contain '$$' when excluding '$$' and '$@$' rules
                 // https://github.com/AdguardTeam/FiltersRegistry/issues/731
                 "^((?!#%#).)*\\$\\$|\\$\\@\\$",
-                "\\$(.*,)?replace=",
-                "important,replace=",
-                "\\$(.*,)?app",
-                "\\$network",
-                "\\$protobuf",
-                "important,protobuf",
                 "\\$extension",
                 ",extension",
+                "\\$removeparam",
+                ",removeparam",
+                "\\$removeheader",
+                ",removeheader",
+                "\\$(.*,)?mp4",
+                "\\$(.*,)?replace=",
+                "\\$stealth",
+                ",stealth",
+                "\\$cookie",
+                ",cookie",
+                "important,replace=",
+                "\\$(.*,)?app",
+                "\\$protobuf",
+                "important,protobuf",
+                "\\$redirect=",
+                ",redirect=",
+                "\\$redirect-rule=",
+                ",redirect-rule=",
+                "\\$empty",
+                ",empty",
+                "\\$webrtc",
+                "\\$csp",
+                "\\$network",
                 "\\$hls=",
                 ",hls=",
                 "\\$jsonprune=",
-                ",jsonprune=",
-                "\\$content",
-                ",content"
+                ",jsonprune="
             ],
             "replacements": null,
             "ignoreRuleHints": false
         },
         "defines": {
             "adguard": true,
-            "adguard_ext_edge": true
-        }
-    },
-    "EXTENSION_OPERA": {
-        "platform": "ext_opera",
-        "path": "extension/opera",
-        "configuration": {
-            "removeRulePatterns": [
-                // Do not exclude scriptlets which contain '$$' when excluding '$$' and '$@$' rules
-                // https://github.com/AdguardTeam/FiltersRegistry/issues/731
-                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
-                "\\$(.*,)?replace=",
-                "important,replace=",
-                "\\$(.*,)?app",
-                "\\$network",
-                "\\$protobuf",
-                "important,protobuf",
-                "\\$extension",
-                ",extension",
-                "\\$hls=",
-                ",hls=",
-                "\\$jsonprune=",
-                ",jsonprune=",
-                "\\$content",
-                ",content"
-            ],
-            "replacements": null,
-            "ignoreRuleHints": false
-        },
-        "defines": {
-            "adguard": true,
-            "adguard_ext_opera": true
+            "adguard_app_ios": true
         }
     },
     "EXTENSION_ANDROID_CONTENT_BLOCKER": {
