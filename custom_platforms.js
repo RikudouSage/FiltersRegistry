@@ -60,7 +60,7 @@ module.exports = {
                 // https://github.com/AdguardTeam/FiltersRegistry/pull/806
                 "\\$domain=\/",
                 ",domain=\/",
-                // Do not exclude scriptlets which contain $$ when excluding '$$' and '$@$' rules
+                // Do not exclude scriptlets which contain '$$' when excluding '$$' and '$@$' rules
                 "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$extension",
                 ",extension",
@@ -105,7 +105,7 @@ module.exports = {
         "path": "extension/chromium",
         "configuration": {
             "removeRulePatterns": [
-                // Do not exclude scriptlets which contain $$
+                // Do not exclude scriptlets which contain '$$' when excluding '$$' and '$@$' rules
                 "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?replace=",
                 "important,replace=",
@@ -135,7 +135,7 @@ module.exports = {
         "path": "extension/firefox",
         "configuration": {
             "removeRulePatterns": [
-                // Do not exclude scriptlets which contain $$
+                // Do not exclude scriptlets which contain '$$' when excluding '$$' and '$@$' rules
                 "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?app",
                 "\\$network",
@@ -161,7 +161,7 @@ module.exports = {
                 // https://github.com/AdguardTeam/FiltersRegistry/pull/806
                 "\\$domain=\/",
                 ",domain=\/",
-                // Do not exclude scriptlets which contain $$ when excluding '$$' and '$@$' rules
+                // Do not exclude scriptlets which contain '$$' when excluding '$$' and '$@$' rules
                 "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$extension",
                 ",extension",
@@ -206,7 +206,7 @@ module.exports = {
         "path": "extension/edge",
         "configuration": {
             "removeRulePatterns": [
-                // Do not exclude scriptlets which contain $$
+                // Do not exclude scriptlets which contain '$$' when excluding '$$' and '$@$' rules
                 "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?replace=",
                 "important,replace=",
@@ -236,7 +236,7 @@ module.exports = {
         "path": "extension/opera",
         "configuration": {
             "removeRulePatterns": [
-                // Do not exclude scriptlets which contain $$
+                // Do not exclude scriptlets which contain '$$' when excluding '$$' and '$@$' rules
                 "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?replace=",
                 "important,replace=",
@@ -270,7 +270,7 @@ module.exports = {
                 // https://github.com/AdguardTeam/FiltersRegistry/pull/806
                 "\\$domain=\/",
                 ",domain=\/",
-                // Do not exclude scriptlets which contain $$ when excluding '$$' and '$@$' rules
+                // Do not exclude scriptlets which contain '$$' when excluding '$$' and '$@$' rules
                 "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$extension",
                 ",extension",
@@ -334,7 +334,7 @@ module.exports = {
         "path": "extension/ublock",
         "configuration": {
             "removeRulePatterns": [
-                // Do not exclude scriptlets which contain $$
+                // Do not exclude scriptlets which contain '$$' when excluding '$$' and '$@$' rules
                 "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?mp4",
                 "\\$(.*,)?replace=",
