@@ -115,7 +115,8 @@ module.exports = {
         },
         "defines": {
             "adguard": true,
-            "adguard_ext_edge": true
+            "adguard_ext_edge": true,
+            "adguard_ext_chromium": true
         }
     },
     "EXTENSION_OPERA": {
@@ -146,7 +147,8 @@ module.exports = {
         },
         "defines": {
             "adguard": true,
-            "adguard_ext_opera": true
+            "adguard_ext_opera": true,
+            "adguard_ext_chromium": true
         }
     },
     "EXTENSION_FIREFOX": {
