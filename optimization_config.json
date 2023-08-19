@@ -42,7 +42,8 @@
   },
   {
     "filterId": 101,
-    "percent": 35,
+    "percent": 50,
+    "minPercent": 40,
     "comment": "EasyList"
   },
   {
