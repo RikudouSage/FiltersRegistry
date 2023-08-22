@@ -236,6 +236,7 @@ _campaign=$popup
 !###########################
 !
 !### xinggsf ###
+/##\[id\|=ad\]$/
 /##\.adsbygoogle,\.ads$/
 */market-$script
 ! https://github.com/xinggsf/Adblock-Plus-Rule/issues/23
